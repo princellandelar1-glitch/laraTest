@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookshelf</title>
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-    <header class="container site-header">
-        <a href="{{ route('books.index') }}">Bookshelf<a\>
+    <header class="site-header">
+        <a href="{{ route('books.index') }}">Bookshelf</a>
     </header>
-    <main class="controller">
-        @yield('content')
-        
 
+    <main class="container">
+        @yield('content') {{-- placeholder --}}
     </main>
 
-    
-
-    
 </body>
 </html>
