@@ -13,6 +13,7 @@
     </header>
     <main class="controller">
         @yield('content')
+        
 
     </main>
 
